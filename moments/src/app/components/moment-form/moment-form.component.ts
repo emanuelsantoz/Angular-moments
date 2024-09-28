@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-moment-form',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './moment-form.component.css'
 })
 export class MomentFormComponent {
+  @Input() btnText!: string
+
+  constructor(){}
+
 
 }

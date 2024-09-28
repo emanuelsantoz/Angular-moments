@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './moment.component.css'
 })
 export class MomentComponent {
-
+  url:string ="";
+  constructor(){}
+  
 }
