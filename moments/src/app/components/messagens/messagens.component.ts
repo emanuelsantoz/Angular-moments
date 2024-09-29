@@ -9,4 +9,6 @@ import { MessageService } from '../../services/message.service';
 export class MessagensComponent {
 
   constructor(public messagensServices: MessageService){}
+
+  ngOnInit(): void {}
 }

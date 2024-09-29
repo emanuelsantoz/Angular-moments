@@ -1,0 +1,16 @@
+.about{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2, p {
+  margin-bottom: 1rem;
+}
+
+.about a {
+  text-decoration: underline;
+}

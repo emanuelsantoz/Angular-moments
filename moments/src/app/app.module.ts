@@ -10,11 +10,13 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MessagensComponent } from './components/messagens/messagens.component';
 import { MomentFormComponent } from './components/moment-form/moment-form.component';
-import { PagesComponent } from './components/pages/pages.component';
-import { AboutComponent } from './components/pages/about/about.component';
-import { HomeComponent } from './components/pages/home/home.component';
-import { NewMomentComponent } from './components/pages/new-moment/new-moment.component';
+
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutComponent } from './pages/about/about.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NewMomentComponent } from './pages/new-moment/new-moment.component';
+import { MomentComponent } from './pages/moment/moment.component';
+
 
 @NgModule({
   declarations: [
@@ -23,10 +25,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     MessagensComponent,
     MomentFormComponent,
-    PagesComponent,
     AboutComponent,
     HomeComponent,
-    NewMomentComponent
+    NewMomentComponent,
+    MomentComponent
   ],
   imports: [
     BrowserModule,
